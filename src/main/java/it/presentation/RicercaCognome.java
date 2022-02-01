@@ -13,7 +13,7 @@ import it.business.GestioneContattiEJB;
 import it.data.Contatto;
 
 
-@WebServlet("\ricercacognome")
+@WebServlet("/ricercacognome")//attento a ste cazzo di slash
 public class RicercaCognome extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
